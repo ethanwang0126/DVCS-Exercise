@@ -192,6 +192,7 @@
     <Content Include="Page1.aspx" />
     <Content Include="Page2.aspx" />
     <Content Include="Page4.aspx" />
+    <Content Include="Page5.aspx" />
     <Content Include="Pgae3.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -382,6 +383,13 @@
     </Compile>
     <Compile Include="Page4.aspx.designer.cs">
       <DependentUpon>Page4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page5.aspx.cs">
+      <DependentUpon>Page5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page5.aspx.designer.cs">
+      <DependentUpon>Page5.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pgae3.aspx.cs">
       <DependentUpon>Pgae3.aspx</DependentUpon>
